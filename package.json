@@ -1,0 +1,16 @@
+{
+    "name": "ai-min-agent",
+    "module": "mini-agent.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@ai-sdk/google": "^2.0.23",
+        "@ai-sdk/openai": "^2.0.52",
+        "ai": "^5.0.76"
+    }
+}
